@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ROWRK | Work Finds a Way</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f8f6;
+  color: #171717;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 7%;
+  background: white;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: -2px;
+}
+
+nav a {
+  color: #171717;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  padding: 90px 7%;
+  background: #171717;
+  color: white;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: clamp(42px, 8vw, 76px);
+  line-height: 1.05;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  color: #c7c7c7;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.btn {
+  display: inline-block;
+  margin: 28px 5px 0;
+  padding: 15px 25px;
+  border-radius: 6px;
+  background: #d7ff45;
+  color: #171717;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 65px 7%;
+}
+
+.section-title {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 15px;
+}
+
+.service {
+  padding: 25px 15px;
+  background: white;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.service span {
+  display: block;
+  font-size: 30px;
+  margin-bottom: 14px;
+}
+
+.join {
+  background: #e9f4c9;
+  text-align: center;
+}
+
+footer {
+  background: #171717;
+  color: white;
+  padding: 30px 7%;
+  text-align: center;
+  line-height: 1.8;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <div class="logo">ROWRK.</div>
+  <a href="#services">Explore Services ↗</a>
+</nav>
+
+<div class="hero">
+  <h1>Work Finds<br>A Way.</h1>
+  <p>
+    Find trusted local workers.<br>
+    Connect with opportunities around you.
+  </p>
+  <a class="btn" href="#services">Find a Service →</a>
+  <a class="btn" href="#join">Join as a Worker →</a>
+</div>
+
+<section id="services">
+  <h2 class="section-title">What do you need?</h2>
+  <p class="subtitle">Find people who get the work done.</p>
+
+  <div class="services">
+    <div class="service"><span>⚡</span>Electrician</div>
+    <div class="service"><span>🔧</span>Plumber</div>
+    <div class="service"><span>🎨</span>Painter</div>
+    <div class="service"><span>🪚</span>Carpenter</div>
+    <div class="service"><span>🧹</span>Cleaning</div>
+    <div class="service"><span>🛠️</span>Mechanic</div>
+  </div>
+</section>
+
+<section class="join" id="join">
+  <h2 class="section-title">Your Skills. Your Opportunity.</h2>
+  <p>Are you a skilled worker? Let people discover your work.</p>
+  <a class="btn" href="mailto:hello@rowrk.com">Get Started</a>
+</section>
+
+<footer>
+  <h2>ROWRK.</h2>
+  <p>Work Finds a Way.</p>
+  <p>© 2026 ROWRK. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
